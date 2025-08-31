@@ -1,0 +1,13 @@
+# Temporary files created by the Arduino IDE
+*.o
+*.a
+*.elf
+*.hex
+*.bin
+*.eep
+
+# Build folder for Arduino IDE 1.5 and later
+build.*
+
+# Local user preferences
+local.properties
