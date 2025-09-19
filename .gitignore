@@ -1,0 +1,58 @@
+# Arduino IDE build files
+*.o
+*.a
+*.elf
+*.hex
+*.bin
+*.eep
+*.map
+*.lss
+*.sym
+
+# Build directories
+build/
+build.*/
+.vscode/
+.vs/
+.build/
+
+# Arduino IDE files
+*.ino.bak
+local.properties
+.arduino_data/
+__pycache__/
+
+# PlatformIO files
+.pio/
+.pioenvs/
+.piolibdeps/
+lib_deps/
+
+# Temporary and backup files
+*~
+*.tmp
+*.bak
+*.orig
+*.swp
+*.swo
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Documentation build
+docs/_build/
+docs/html/
+docs/latex/
+
+# Test coverage
+coverage/
+*.gcov
+*.gcda
+*.gcno
